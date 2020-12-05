@@ -44,6 +44,10 @@ body {
     background-color: var(--palette1-dark-blue);
 }
 
+.social {
+    color: var(--palette4-yellow);
+}
+
 
 #logo {
     color: var(--palette2-pink);
