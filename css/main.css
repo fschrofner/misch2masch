@@ -25,10 +25,28 @@
     --palette4-purple: #541388;
 }
 
+@font-face {
+    font-family: alienEncounters;
+    src: url(../fonts/alien_encounters/sf_alien_encounters_regular.ttf);
+}
+
+@font-face {
+    font-family: firaSans;
+    src: url(../fonts/fira_sans/fira_sans_regular.otf);
+}
+
+@font-face {
+    font-family: firaSansSemiBold;
+    src: url(../fonts/fira_sans/fira_sans_semi_bold.otf);
+}
+
 body {
     background-color: var(--palette1-dark-blue);
 }
 
-h1 {
-    color: var(--palette4-yellow);
+
+#logo {
+    color: var(--palette2-pink);
+    font-family: alienEncounters;
+    font-size: 140px;
 }
