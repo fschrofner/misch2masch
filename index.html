@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="libs/font-awesome/css/all.css">
+        <link rel="stylesheet" href="libs/picnic-css/picnic.min.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
+        <div id="grid" class="flex three grow">
 
-        <h1 id="logo">M 2 M</h1>
+            <div class="full flex three center" id="picture-holder">
+                <img class="two-third half-1000 third-1200" src="imgs/logo.png"/>
+            </div>
 
-        <iframe
-            src="https://player.twitch.tv/?channel=misch2masch&parent=m2m.schro.fi&muted=true"
-            height="720"
-            width="1280"
-            frameborder="0"
-            scrolling="no"
-            allowfullscreen="true">
-        </iframe>
 
+            <div class="full flex three center">
+                <iframe
+                    class="two-third half-1000"
+                    src="https://player.twitch.tv/?channel=misch2masch&parent=m2m.schro.fi&muted=true"
+                    height="720"
+                    width="1280"
+                    frameborder="0"
+                    scrolling="no"
+                    allowfullscreen="true">
+                </iframe>
+            </div>
+
+            <div class="full">
+                <i class="fab fa-instagram fa-7x social"></i>
+                <i class="fab fa-twitch fa-7x social"></i>
+                <i class="fab fa-youtube fa-7x social"></i>
+            </div>
+        </div>
     </body>
 </html>
