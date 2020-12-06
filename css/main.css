@@ -48,9 +48,15 @@ body {
     color: var(--palette4-yellow);
 }
 
+#picture-holder {
+    align-items: center;
+}
 
-#logo {
-    color: var(--palette2-pink);
-    font-family: alienEncounters;
-    font-size: 140px;
+#picture-holder img {
+    height: auto;
+}
+
+#grid {
+    width: 100%;
+    heigth: 100%;
 }
