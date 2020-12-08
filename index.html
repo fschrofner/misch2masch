@@ -7,29 +7,38 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <div id="grid" class="flex three grow">
+        <div id="grid" class="flex twelve grow">
 
-            <div class="full flex three center" id="picture-holder">
-                <img class="two-third half-1000 third-1200" src="imgs/logo.png"/>
+            <div class="full flex twelve center" id="picture-holder">
+                <img class="half third-1000 fifth-1200" src="imgs/logo.png"/>
             </div>
 
 
-            <div class="full flex three center">
-                <iframe
-                    class="two-third half-1000"
-                    src="https://player.twitch.tv/?channel=misch2masch&parent=m2m.schro.fi&muted=true"
-                    height="720"
-                    width="1280"
-                    frameborder="0"
-                    scrolling="no"
-                    allowfullscreen="true">
-                </iframe>
-            </div>
+            <div class="full flex twelve center">
+                <div id="content-holder" class="three-fourth two-third-1200 half-1600">
+                    <h1>Ahoi hoi!</h1>
 
-            <div class="full">
-                <i class="fab fa-instagram fa-7x social"></i>
-                <i class="fab fa-twitch fa-7x social"></i>
-                <i class="fab fa-youtube fa-7x social"></i>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+
+                    <div id="video-holder">
+                        <iframe
+                            src="https://player.twitch.tv/?channel=misch2masch&parent=m2m.schro.fi&muted=true"
+                            height="100%"
+                            width="100%"
+                            frameborder="0"
+                            scrolling="no"
+                            allowfullscreen="true">
+                        </iframe>
+                    </div>
+
+                    <div id="social-holder">
+                        <a href="https://www.instagram.com/misch2masch"><i class="fab fa-instagram fa-7x social-link"></i></a>
+                        <a href="https://www.twitch.tv/misch2masch"><i class="fab fa-twitch fa-7x social-link"></i></a>
+                        <a href="https://www.youtube.com/channel/UC_uADYPIdgCs0PxuRPYTofA"><i class="fab fa-youtube fa-7x social-link"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
