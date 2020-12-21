@@ -74,9 +74,30 @@ h1, h2, h3, h4, h5 {
 
 #content-holder {
     background-color: var(--palette1-dark-purple);
-    padding: 40px;
     margin-top: 40px;
     border-radius: 25px;
+    padding: 40px 12px 40px 12px;
+}
+
+@media only screen and (min-width: 800px){
+    #content-holder {
+        background-color: var(--palette1-dark-purple);
+        padding: 40px;
+        margin-top: 40px;
+        border-radius: 25px;
+    }
+
+    #content-holder p {
+        padding: 0;
+    }
+}
+
+#content-holder p {
+    padding: 0 16px 0 16px;
+}
+
+#content-holder #headline {
+    padding: 0 16px 0 16px;
 }
 
 #social-holder {
@@ -99,6 +120,17 @@ h1, h2, h3, h4, h5 {
     margin: 0;
 }
 
-.flex.* {
-    padding: 0;
+#headline {
+    display: flex;
+    align-items:center;
+}
+
+#headline h1 {
+    font-size: 2.5em;
+    margin-left: 24px;
+}
+
+#headline img {
+    height: 100px;
+    width: 100px;
 }
