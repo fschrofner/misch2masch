@@ -75,14 +75,14 @@ h1, h2, h3, h4, h5 {
 }
 
 #content-wrapper {
-    margin-top: -100px;
+    margin-top: -80px;
 }
 
 #content-holder {
     background-color: var(--palette1-dark-purple);
     border-radius: 25px;
     padding: 40px 12px 40px 12px;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 @media only screen and (min-width: 800px){
@@ -96,6 +96,10 @@ h1, h2, h3, h4, h5 {
     #content-holder p {
         padding: 0;
     }
+
+    #content-wrapper {
+        margin-top: -100px;
+    }
 }
 
 #content-holder p {
@@ -107,8 +111,8 @@ h1, h2, h3, h4, h5 {
 }
 
 #social-holder {
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
     margin-top: 40px;
 }
 
